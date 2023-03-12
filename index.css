@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&display=swap');
+
+.navbar
+{
+  height:7vh;
+  display:flex;
+  justify-content:end;
+  align-items:center;
+  flex-wrap:wrap;
+  align-content:space-around;
+  background-color:lightgray;
+  gap:6em;
+}
+
+.onglet
+{
+  opacity: 0;
+  margin-right:5em;
+  animation: navbar_animation 1s ease-in-out 1s both;
+  transition: all 0.5s ease-in-out;
+}
+
+
+a
+{
+  color: inherit;
+  text-decoration: none;
+  display: block;
+  position: relative;
+}
+
+a::after
+{
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 0.1em;
+  background-color: hotpink;
+  opacity: 0;
+  transition: opacity 300ms, transform 300ms;
+}
+
+.onglet a::after
+{
+  opacity: 1;
+  transform: scale(0);
+  transform-origin: center;
+}
+
+.onglet a:hover::after,
+.onglet a:focus::after
+{
+  transform: scale(1);
+}
+
+.title
+{
+    height: 100vh;
+    justify-content: center;
+    display:flex;
+    align-items: center;
+    
+}
+
+h1
+{
+    position: absolute;
+    font-size: 5em;
+    color: lightblue;
+    font-family: 'Climate Crisis', cursive;
+    animation: title_animation 1s ease-in-out;
+    width: 50%;
+    text-align: center;
+}
+
+
+
+::-webkit-scrollbar
+{
+    display: none;
+}
+
+body
+{
+  background-color:rgb(48, 46, 46);
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.cards
+{
+  display:flex;
+}
+
+
+
+.card
+{
+  background-color:black;
+  width:30%;
+  border-radius:20px;
+  padding:20px;
+  margin:20px;
+  transition: box-shadow 0.5s ease-out;
+}
+
+h2,p
+{
+  color:white;
+}
+
+.card:hover
+{
+  box-shadow: 10px -5px 20px lightblue;
+
+}
+
+
+@keyframes title_animation {
+    from 
+    {
+        transform: translateY(-5em);
+        opacity: 0;
+    }    
+    to
+    {
+        transform: translateY(0em);
+        opacity: 1;
+    }
+}
+
+@keyframes navbar_animation {
+  from
+  {
+    transform: translateX(-5em);
+    opacity: 0;
+  }
+  to
+  {
+    transform: translateX(0em);
+    opacity: 1;
+  }
+}
