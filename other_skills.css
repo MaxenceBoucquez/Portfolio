@@ -1,0 +1,28 @@
+#cards
+{
+  display:flex;
+  background-color: var(--secondary-color);
+  margin-top: 2em;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+
+.card
+{
+  background-color:black;
+  width:25%;
+  height: 25vh;
+  border-radius:20px;
+  padding:2rem;
+  margin:2rem;
+  transition: box-shadow 0.5s ease-out;
+  color:white
+}
+
+.card:hover
+{
+  box-shadow: 10px -5px 20px lightblue;
+
+}
+
