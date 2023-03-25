@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Righteous&display=swap');
+
+.title
+{
+    height: 100vh;
+    justify-content: center;
+    display:flex;
+    align-items: center;
+    position: sticky;
+    /* top: -2em; */
+    z-index: -1;
+}
+
+h1
+{
+    position: absolute;
+    font-size: 5em;
+    color: var(--third-color);
+    font-family: 'Climate Crisis', cursive;
+    animation: title_animation 1s ease-in-out both, title_moving_animation 5s ease-in-out 1s infinite both;
+    width: 50%;
+    text-align: center;
+}
+
+
+
+::-webkit-scrollbar
+{
+    display: none;
+}
+
+h2,p
+{
+  color:white;
+}
+
+
+
+
+@keyframes title_animation {
+    from 
+    {
+        transform: translateY(-5em);
+        opacity: 0;
+    }    
+    to
+    {
+        transform: translateY(-1em);
+        opacity: 1;
+    }
+}
+
+@keyframes title_moving_animation{
+    0% 
+    {
+        transform: translateY(0px);
+    }
+    100%
+    {
+        transform: translateY(10px);
+    }
+}
+
+.vide
+{
+    height: 100vh;
+}

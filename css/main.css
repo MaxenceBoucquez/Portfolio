@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Righteous&display=swap');
+
+html
+{
+  scroll-behavior:smooth;
+}
+
+body
+{
+  background:linear-gradient(-45deg, var(--primary-color),var(--second-background-color),var(--primary-color));
+  background-size: 150%;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  margin:0;
+  animation: background-animation 5s ease-in infinite both;
+}
+
+.navbar
+{
+  height:7vh;
+  display:flex;
+  justify-content:end;
+  align-items:center;
+  background-color:var(--secondary-color);
+  opacity: 0;
+  animation: navbar_animation 1s ease-in-out 0.5s both;
+}
+
+.onglet
+{
+  opacity: 0;
+  margin-right:3em;
+  animation: onglets_animation 1s ease-in-out 1s both;
+  transition: all 0.5s ease-in-out;
+  font-size: 1.5em;
+  color:var(--third-color);
+  text-shadow: -0.5px 0 black, 0 0.5px black,0.5px 0 black, 0 -0.5px black;
+  font-family: 'Righteous', cursive;
+  font-weight:500;
+}
+
+a
+{
+  color: inherit;
+  text-decoration: none;
+  display: block;
+  position: relative;
+}
+
+a::after
+{
+  content: '';
+  position: absolute;
+  bottom: -5;
+  left: 0;
+  width: 100%;
+  height: 0.1em;
+  background-color: var(--third-color);
+  opacity: 0;
+  transition: opacity 300ms, transform 300ms;
+}
+
+.onglet a::after
+{
+  opacity: 1;
+  transform: scale(0);
+  transform-origin: center;
+}
+
+.onglet a:hover::after,
+.onglet a:focus::after
+{
+  transform: scale(1);
+}
+
+@keyframes navbar_animation {
+    from
+    {
+      transform: translateY(-5em);
+      opacity: 0;
+    }
+    to
+    {
+      transform: translateY(0em);
+      opacity: 1;
+    }
+  
+  }
+  
+  @keyframes onglets_animation {
+    from
+    {
+      transform: translateX(-5em);
+      opacity: 0;
+    }
+    to
+    {
+      transform: translateX(0em);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes background-animation {
+    0%
+    {
+      background-position: 0% 50%;
+    }
+    50%
+    {
+      background-position: 100% 50%;
+    }
+    100%
+    {
+      background-position: 0% 50%;
+    }
+  }
+  

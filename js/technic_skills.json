@@ -1,0 +1,104 @@
+{
+    "cards":[
+        {
+        "front":{
+            "titre":"Réaliser",
+            "description":"Développer : c'est créer, concevoir, coder, tester et intégrer une solution informatique pour un client."
+        },
+        "back":{
+            "projets":[
+                {
+                    "titre":"Gestion d'annuaire en C",
+                    "description":"A partir d'un fichier excel, gestion des utilisateurs via des recherches ou des tris. Possibilité d'ajouter ou suppimer des utilisateurs"            
+                },
+                {
+                    "titre":"GraphMap Analysis",
+                    "description":"Création d'un outil permettant la visualisation d'un graphe créé à partir d'un fichier texte. Le graphe contient différents types de lieux et de routes."
+                }
+            ]
+        }
+    },
+    {
+        "front":{
+            "titre":"Optimiser",
+            "description":"Proposer des applications informatiques optimisées en fonction de critères spécifiques : temps d'exécution, précision, consommation de ressources.."
+        },
+        "back":{
+            "projets":[
+                {
+                    "titre":"Gestion d'annuaire en C",
+                    "description":"Optimisation des algorithmes de tri afin d'augmenter la rapidité d'exécution."            
+                },
+                {
+                    "titre":"GraphMap Analysis",
+                    "description":"Réalisation d'un parcours de recherche pour rechercher le plus court chemin entre 2 points donnés."            
+                }
+            ]
+        }
+    },
+    {
+        "front":{
+            "titre":"Administrer",
+            "description":"Installer, configurer, mettre à disposition, maintenir en conditions opérationnelles des infrastructures, des services et des réseaux et optimiser les systèmes informatiques d'une organisation."
+        },
+        "back":{
+            "projets":[
+                {
+                    "titre":"Réseau",
+                    "description":"Installer et configurer un réseau local, configurer un DNS. Déployer un serveur web Apache sur un réseau local puis public."            
+                }
+            ]
+        }
+    },
+    {
+        "front":{
+            "titre":"Gérer",
+            "description":"Concevoir, gérer, administrer et exploiter les données de l'entreprise et mettre à disposition toutes les informations pour un bon pilotage de l'entreprise."
+        },
+        "back":{
+            "projets":[
+                {
+                    "titre":"Projet Power BI",
+                    "description":"Modification et exploitation d'une base de données conséquente afin de créer des diagrammes et statistiques."            
+                },
+                {
+                    "titre":"My Amazing Reminder",
+                    "description":"Mise en place d'une base de données afin de gérer des comptes utilisateurs et des données liées à eux"
+                }
+            ]
+        }
+    },
+    {
+        "front":{
+            "titre":"Conduire",
+            "description":"Satisfaire les besoins des utilisateurs au regard de la chaîne de valeur du client, organiser et piloter un projet informatique avec des méthodes classiques ou agiles."
+        },
+        "back":{
+            "projets":[
+                {
+                    "titre":"My Amazing Reminder",
+                    "description":"La méthode utilisée tout au long du proje♂6 était la méthode SCRUM avec le reste de l'équipe"            
+                }
+            ]
+        }
+    },
+    {
+        "front":{
+            "titre":"Collaborer",
+            "description":"Acquérir, développer et exploiter les aptitudes nécessaires pour travailler efficacement dans une équipe informatique."
+        },
+        "back":{
+            "projets":[
+                {
+                    "titre":"My Amazing Reminder",
+                    "description":"Collaboration dans une équipe de 3 personnes avec répartition égale des taches"            
+                },
+                {
+                    "titre":"GraphMap Analysis",
+                    "description":"Collaboration dans une équipe de 2 personnes. 1 personne s'est occupé du front, l'autre du back"            
+                }
+            ]
+        }
+    }
+    ]
+}
