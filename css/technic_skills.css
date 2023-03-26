@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Righteous&display=swap');
+
+#technic-skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.card
+{
+    color: wheat;
+    min-width: 10em;
+    width: 25%;
+    height: 20rem;
+    font-family: 'Righteous', cursive;
+    background-color: black;
+    border-radius: 20px;
+    padding: 1em;
+    margin-bottom: 2em;
+    text-align: center;
+    transition: color 0.5s ease-in-out, background-color 0.5s ease-in-out;
+    animation: cards_apparition 1s ease-in-out 1s both;
+}
+
+.card:hover
+{
+    background-color: var(--primary-color);
+    color: var(--third-color);
+    transition: color 0.5s ease-in-out, background-color 0.5s ease-in-out;
+}
+
+.card:hover .card-front
+{
+    display: flex;
+    display: none;
+    opacity: 0;
+    transform: scale(0), translateY(0%);
+    transition: all 0.5s ease-in-out;
+}
+
+.card:hover .card-back
+{
+    visibility: visible;
+    height: auto;
+    display: inline-block;
+    opacity: 1;
+    transition: all 0.5s ease-in-out;
+}
+
+
+.card-front
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    transform: scale(1), translateY(-50%);
+    transition: all 0.5s ease-in-out;
+}
+
+.card-back 
+{
+    display: none;
+    visibility: hidden;
+    opacity: 0;
+    transform: translateY(0%);
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+}
+
+.titre
+{
+    display: flex;
+    justify-content: center;
+    font-family: 'Climate Crisis', cursive;
+    color: var(--third-color);
+    font-weight: lighter;
+    font-size: 1.5em;
+}
+
+@keyframes cards_apparition
+{
+    0%
+    {
+        opacity: 0;
+        transform: translateY(100%);
+    }
+    100%
+    {
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}
+    

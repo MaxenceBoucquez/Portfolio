@@ -1,7 +1,6 @@
 #cards
 {
   display:flex;
-  background-color: var(--secondary-color);
   margin-top: 2em;
   justify-content: center;
   flex-wrap: wrap;
@@ -10,14 +9,15 @@
 
 .card
 {
-  background-color:black;
   width:25%;
   height: 25vh;
+  background-color: black;
   border-radius:20px;
   padding:2rem;
   margin:2rem;
   transition: box-shadow 0.5s ease-out;
-  color:white
+  color:white;
+  font-family: 'Righteous', cursive;
 }
 
 .card:hover

@@ -1,6 +1,6 @@
 let cards = document.getElementById("cards")
 
-fetch("other_skills.json")
+fetch("../json/other_skills.json")
 .then(res=>res.json())
 .then(data=>data.cards.forEach(card => {
     let new_title = document.createElement("h2")

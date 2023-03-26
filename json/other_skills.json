@@ -1,0 +1,26 @@
+{
+    "cards":[
+        {
+            "titre":"Esprit d'équipe",
+            "description":"Au cours de ma scolarité, les multiples travaux de groupe m'ont permis d'acquérir de solides compétences au niveau social. Je pourrais ainsi parfaitement à n'importe quel travail d'équipe."
+             
+        },
+        {
+            "titre":"Curiosité",
+            "description":"Pour certains, elle peut être un vilain défaut, pas pour moi puisqu'elle me rapproche des nouvelles technologies et me tire toujours plus vers le haut"
+        },
+        {
+            "titre":"Logique",
+            "description":"Je suis quelqu'un de très logique, ce qui me permet de m'adapter à n'importe quel environnement et de m'adapter à n'importe quelle situation."
+        },
+        {
+            "titre":"Rigueur",
+            "description":"Etant très rigoureux, je peux m'adapter à n'importe quel environnement ou situation."
+        },
+        {
+            "titre":"Autonomie",
+            "description":"Avec un travail donné, je peux m'organiser pour le réaliser dans les temps impartis en utilisant les solutions les plus pertinentes."
+        }
+        
+    ]
+}
