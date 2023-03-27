@@ -3,10 +3,32 @@
         {
             "img":"caca",
             "title":"GraphMap",
-            "description":"GraphMap est un projet collaboratif à 2 personnes. Le but du projet était de pouvoir visualiser un graphe sous forme d'interface graphique en Java",
-            "link":"caca"
+            "description":"GraphMap est un projet collaboratif à 2 personnes. Le but du projet était de pouvoir visualiser un graphe sous forme d'interface graphique en Java. Différentes opérations sont possibles telles que la sélection de points, de liens ou le calcul de plus court chemin. Ce projet a été fait entièrement en Java et la création du graphe est faite à partir d'un fichier CSV."
         },
-
+        {
+            "img":"caca",
+            "title":"Gestion d'annuaire",
+            "description":"Dans ce projet effectué seul, à partir d'un fichier Excel de personnes, il est possible d'effectuer différentes opérations comme lister toutes les personnes du fichier, donner les personnes dont certains champs sont vides, ajouter ou supprimer des personnes... Ce projet a été fait entièrement en C."
+        },
+        {
+            "img":"caca",
+            "title":"My Amazing Reminder",
+            "description":"Projet de site web en collaboration. Mise en place d'une ToDoList avec création de comptes utilisateurs via une base de données. Chaque utilisateur peut avoir accès à ses propres listes et créer des listes collaboratives en invitant d'autres utilisateurs."
+        },
+        {
+            "img":"caca",
+            "title":"Bloc-Notes",
+            "description":"Reproduction du logiciel Bloc-Notes de Windows en Java avec la plupart des fonctionnalités disponibles."
+        },
+        {
+            "img":"caca",
+            "title":"CityGuesser",
+            "description":"Création d'un logiciel Android en Kotlin. Jeu où l'on choisit un pays de son choix et on doit trouver la capitale du pays sur une carte générée par l'API Google Maps."
+        },
+        {
+            "img":"caca",
+            "title":"Retro-Breaker",
+            "description":"Création d'un jeu de casse-briques en Javascript avec un thème néon rétro."
         }
     ]
 }

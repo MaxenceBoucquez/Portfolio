@@ -1,0 +1,34 @@
+.projects
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.project
+{
+    color: wheat;
+    min-width: 10em;
+    width: 25%;
+    height: 100%;
+    font-family: 'Righteous', cursive;
+    background-color: black;
+    border-radius: 20px;
+    padding: 1em;
+    margin-bottom: 2em;
+    text-align: center;
+    transition: all 0.5s ease-in-out;
+    animation: cards_apparition 1s ease-in-out 1s both;
+}
+
+.title
+{
+    display: flex;
+    justify-content: center;
+    font-family: 'Climate Crisis', cursive;
+    color: var(--third-color);
+    font-weight: lighter;
+    font-size: clamp(1em,2.5vw,10em);
+    text-align: center;
+    margin: 1.5em;
+}

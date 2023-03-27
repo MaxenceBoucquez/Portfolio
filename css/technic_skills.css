@@ -18,7 +18,7 @@
     padding: 1em;
     margin-bottom: 2em;
     text-align: center;
-    transition: color 0.5s ease-in-out, background-color 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
     animation: cards_apparition 1s ease-in-out 1s both;
 }
 
