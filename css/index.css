@@ -7,7 +7,6 @@
     display:flex;
     align-items: center;
     position: sticky;
-    /* top: -2em; */
     z-index: -1;
 }
 
@@ -55,13 +54,32 @@ h2,p
     {
         transform: translateY(0px);
     }
+    50%
+    {
+        transform: translateY(-10px);
+    }
     100%
     {
-        transform: translateY(10px);
+        transform: translateY(0px);
     }
 }
 
-.vide
+#texte-explicatif
 {
-    height: 100vh;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.texte
+{
+    width: 50%;
+    font-size: 1.5em;
+    font-family: 'Righteous', cursive;
+    text-align: center;
+    padding: 2em;
+    background-color: var(--third-color);
+    border-radius: 1em;
+    animation: title_animation 1s ease-in-out 1s both;
 }

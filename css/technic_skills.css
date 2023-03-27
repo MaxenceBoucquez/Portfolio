@@ -74,6 +74,8 @@
     color: var(--third-color);
     font-weight: lighter;
     font-size: 1.5em;
+    margin: 1.5em;
+    animation: title_animation 1s ease-in-out 0.5s both;
 }
 
 @keyframes cards_apparition
@@ -87,6 +89,19 @@
     {
         opacity: 1;
         transform: translateY(0%);
+    }
+}
+
+@keyframes title_animation {
+    from 
+    {
+        transform: translateY(-5em);
+        opacity: 0;
+    }    
+    to
+    {
+        transform: translateY(-1em);
+        opacity: 1;
     }
 }
     

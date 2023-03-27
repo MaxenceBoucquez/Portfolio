@@ -6,22 +6,65 @@
   flex-wrap: wrap;
 }
 
-
 .card
 {
+  min-width: 15rem;
   width:25%;
   height: 25vh;
   background-color: black;
   border-radius:20px;
   padding:2rem;
   margin:2rem;
-  transition: box-shadow 0.5s ease-out;
+  transition: all 0.5s ease-out;
   color:white;
   font-family: 'Righteous', cursive;
+  animation: cards_apparition 1s ease-in-out 1s both;
 }
 
-.card:hover
+.card:hover, .card:focus
 {
   box-shadow: 10px -5px 20px lightblue;
+  background-color: var(--primary-color);
+  color: var(--third-color);
+  transform: scale(1.1);
 }
 
+.titre
+{
+    display: flex;
+    justify-content: center;
+    font-family: 'Climate Crisis', cursive;
+    color: var(--third-color);
+    font-weight: lighter;
+    font-size: clamp(1em,2.5vw,2.5em);
+    text-align: center;
+    margin: 1.5em;
+    animation: title_animation 1s ease-in-out 0.5s both;
+}
+
+@keyframes title_animation {
+  from 
+  {
+      transform: translateY(-5em);
+      opacity: 0;
+  }    
+  to
+  {
+      transform: translateY(-1em);
+      opacity: 1;
+  }
+}
+
+@keyframes cards_apparition
+{
+    0%
+    {
+        opacity: 0;
+        transform: translateY(100%);
+    }
+    100%
+    {
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}
