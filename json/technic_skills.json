@@ -2,7 +2,7 @@
     "cards":[
         {
         "front":{
-            "name":"Réaliser",
+            "name":"Réaliser (S4)",
             "description":"Développer : c'est créer, concevoir, coder, tester et intégrer une solution informatique pour un client."
         },
         "back":{
@@ -20,7 +20,7 @@
     },
     {
         "front":{
-            "name":"Optimiser",
+            "name":"Optimiser (S4)",
             "description":"Proposer des applications informatiques optimisées en fonction de critères spécifiques : temps d'exécution, précision, consommation de ressources.."
         },
         "back":{
@@ -38,7 +38,7 @@
     },
     {
         "front":{
-            "name":"Administrer",
+            "name":"Administrer (S4)",
             "description":"Installer, configurer, mettre à disposition, maintenir en conditions opérationnelles des infrastructures, des services et des réseaux et optimiser les systèmes informatiques d'une organisation."
         },
         "back":{
@@ -52,7 +52,7 @@
     },
     {
         "front":{
-            "name":"Gérer",
+            "name":"Gérer (S4)",
             "description":"Concevoir, gérer, administrer et exploiter les données de l'entreprise et mettre à disposition toutes les informations pour un bon pilotage de l'entreprise."
         },
         "back":{
@@ -70,7 +70,7 @@
     },
     {
         "front":{
-            "name":"Conduire",
+            "name":"Conduire (S4)",
             "description":"Satisfaire les besoins des utilisateurs au regard de la chaîne de valeur du client, organiser et piloter un projet informatique avec des méthodes classiques ou agiles."
         },
         "back":{
@@ -84,7 +84,7 @@
     },
     {
         "front":{
-            "name":"Collaborer",
+            "name":"Collaborer (S4)",
             "description":"Acquérir, développer et exploiter les aptitudes nécessaires pour travailler efficacement dans une équipe informatique."
         },
         "back":{
@@ -96,6 +96,48 @@
                 {
                     "name":"GraphMap Analysis",
                     "description":"Collaboration dans une équipe de 2 personnes. 1 personne s'est occupé du front, l'autre du back"            
+                }
+            ]
+        }
+    },
+    {
+        "front":{
+            "name":"Manager une équipe informatique (S6)",
+            "description":"Avoir l'aptitude à diriger et coordonner une équipe travaillant sur des projets informatiques"
+        },
+        "back":{
+            "projets":[
+                {
+                    "name":"Aucune SAE dans cette compétence",
+                    "description":""            
+                }
+            ]
+        }
+    },
+    {
+        "front":{
+            "name":"Analyser et optimiser des applications (S6)",
+            "description":"Capacité à examiner une application pour identifier les problèmes de performance et à apporter des améliorations pour rendre l'application plus efficace"
+        },
+        "back":{
+            "projets":[
+                {
+                    "name":"Aucune SAE dans cette compétence",
+                    "description":""            
+                }
+            ]
+        }
+    },
+    {
+        "front":{
+            "name":"Adapter des appli. sur un ensemble de supports (S6)",
+            "description":"Capacité à modifier une application pour qu'elle fonctionne efficacement sur différents types de dispositifs ou de plateformes"
+        },
+        "back":{
+            "projets":[
+                {
+                    "name":"Aucune SAE dans cette compétence",
+                    "description":""            
                 }
             ]
         }
