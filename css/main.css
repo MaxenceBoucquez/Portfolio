@@ -34,7 +34,7 @@ body
   animation: onglets_animation 1s ease-in-out 1s both;
   transition: all 0.5s ease-in-out;
   font-size: 1.5em;
-  color:var(--third-color);
+  color:white;
   text-shadow: -0.5px 0 black, 0 0.5px black,0.5px 0 black, 0 -0.5px black;
   font-family: 'Righteous', cursive;
   font-weight:500;
