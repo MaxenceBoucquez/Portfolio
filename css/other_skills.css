@@ -25,7 +25,6 @@
 {
   box-shadow: 10px -5px 20px lightblue;
   background-color: var(--primary-color);
-  color: var(--third-color);
   transform: scale(1.1);
 }
 
