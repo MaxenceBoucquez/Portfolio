@@ -25,7 +25,6 @@
 .card:hover
 {
     background-color: var(--primary-color);
-    color: var(--third-color);
     transition: color 0.5s ease-in-out, background-color 0.5s ease-in-out;
 }
 
