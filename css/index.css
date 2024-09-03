@@ -82,5 +82,6 @@ h2,p
     padding: 2em;
     background-color: var(--third-color);
     border-radius: 1em;
+    color: white;
     animation: title_animation 1s ease-in-out 1s both;
 }
