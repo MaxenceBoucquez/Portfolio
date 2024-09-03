@@ -14,10 +14,6 @@
                 {
                     "name":"GraphMap Analysis",
                     "description":"Création d'un outil permettant la visualisation d'un graphe créé à partir d'un fichier texte. Le graphe contient différents types de lieux et de routes."
-                },
-                {
-                    "name":"Navi (Mission de stage)",
-                    "description":"Création d'un outil permettant de monitorer des ressources Azure via une interface graphique sur un site web."
                 }
             ]
         }
