@@ -14,6 +14,10 @@
                 {
                     "name":"GraphMap Analysis",
                     "description":"Création d'un outil permettant la visualisation d'un graphe créé à partir d'un fichier texte. Le graphe contient différents types de lieux et de routes."
+                },
+                {
+                    "name":"Navi (Mission de stage)",
+                    "description":"Création d'un outil permettant de monitorer des ressources Azure via une interface graphique sur un site web."
                 }
             ]
         }
@@ -96,6 +100,10 @@
                 {
                     "name":"GraphMap Analysis",
                     "description":"Collaboration dans une équipe de 2 personnes. 1 personne s'est occupé du front, l'autre du back"            
+                },
+                {
+                    "name":"Navi (Mission de stage)",
+                    "description":"Collaboration avec un autre développeur pour la réalisation de l'outil"
                 }
             ]
         }
@@ -122,8 +130,8 @@
         "back":{
             "projets":[
                 {
-                    "name":"Projets durant l'alternance",
-                    "description":""            
+                    "name":"Sogedo (Mission d'alternance)",
+                    "description":"Requêtage a l'API optimisé pour une meilleure rapidité d'exécution"            
                 }
             ]
         }
@@ -136,8 +144,12 @@
         "back":{
             "projets":[
                 {
-                    "name":"Projets durant l'alternance",
-                    "description":""            
+                    "name":"Sogedo (Mission d'alternance)",
+                    "description":"Adaptation de l'outil pour qu'il soit utilisable sur tous les navigateurs, sur mobile et sur tablette"            
+                },
+                {
+                    "name":"SWOW (Mission d'alternance)",
+                    "description":"Adaptation de l'outil pour qu'il soit utilisable sur tous les navigateurs, sur mobile et sur tablette"
                 }
             ]
         }
